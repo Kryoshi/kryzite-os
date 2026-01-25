@@ -40,9 +40,9 @@ done
 # Gnome extensions
 EXTENSIONS=(
   "gnome-shell-extension-pop-shell"
-  "gnome-shell-extension-blur-my-shell"
-  "gnome-shell-extension-caffeine"
-  "gnome-shell-extension-appindicator"
+  # "gnome-shell-extension-blur-my-shell"
+  # "gnome-shell-extension-caffeine"
+  # "gnome-shell-extension-appindicator"
   "gnome-shell-extension-vertical-workspaces"
   "gnome-shell-extension-system-monitor"
   "gnome-shell-extension-frippery-move-clock"
@@ -62,6 +62,7 @@ for PACKAGE in ${PACKAGES_REMOVE[@]}; do
 done
 
 # Remove bazzite extras
+rm -rf usr/share/applications/Waydroid
 rm -f usr/share/applications/bazzite-documentation.desktop
 rm -f usr/share/applications/bazzite-steam-bpm.desktop
 rm -f usr/share/applications/discourse.desktop
