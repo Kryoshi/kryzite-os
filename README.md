@@ -5,5 +5,5 @@ Customised bazzite image built using [ublue-os/image-template](https://github.co
 # Installation
 
 - Install official [Fedora Silverblue ISO](https://fedoraproject.org/atomic-desktops/silverblue/download)
-- Rebase to the unsigned base ublue image `rpm-ostree rebase ostree-unverified-registry:ghcr.io/ublue-os/bazzite-gnome-nvidia:latest`
+- Rebase to the unsigned base ublue image `rpm-ostree rebase ostree-unverified-registry:ghcr.io/ublue-os/bazzite-gnome-nvidia-open:latest`
 - Rebase to the signed custom image `rpm-ostree rebase ostree-image-signed:docker://ghcr.io/kryoshi/kryzite-os:latest`
