@@ -70,6 +70,7 @@ rm -f usr/share/applications/discourse.desktop
 rm -f usr/share/applications/system-update.desktop
 rm -f usr/share/applications/waydroid-container-restart.desktop
 rm -f usr/share/applications/bbrew.desktop
+rm -f usr/share/ublue-os/bazzite/yafti-gtk.flatpak
 
 ### Services
 
