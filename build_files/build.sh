@@ -56,6 +56,7 @@ PACKAGES_REMOVE=(
   "waydroid"
   "input-remapper"
   "webapp-manager"
+  "rom-properties-gtk3"
 )
 for PACKAGE in ${PACKAGES_REMOVE[@]}; do
   dnf5 remove -y "$PACKAGE"
